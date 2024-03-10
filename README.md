@@ -1,2 +1,3 @@
 # Proyecto fin de cursado
-profesor: 
+Prof. Diego Figueroa
+alumno Santi Araoz Daniel Emmanuel 
