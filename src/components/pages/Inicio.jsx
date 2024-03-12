@@ -1,4 +1,4 @@
-import { Container, Carousel, Card } from "react-bootstrap";
+import {Carousel} from "react-bootstrap";
 import { useState } from 'react';
 import CardTecni from "./CardTecni";
 import ActDocente from "./ActDocente";

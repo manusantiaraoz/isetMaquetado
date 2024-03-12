@@ -1,7 +1,9 @@
 import { Container, Button } from "react-bootstrap";
+import { Link, NavLink } from "react-router-dom";
 import acomp from "../../../public/acompTrayectorias.png"
 import gestion from "../../../public/gestionDir.png"
 import nuevas from "../../../public/nuevaspracticas.png"
+
 const ActDocente = () => {
     return (
         <>
@@ -10,19 +12,19 @@ const ActDocente = () => {
           <h3>Ofertas de Actualización Docente</h3>
         </div> 
         <div className="shadow-sm ">
-            <a href="https://iset-tuc.infd.edu.ar/sitio/acompanamiento-a-las-trayectorias-escolares-en-la-educacion-tecnico-profesional/" target="_blanck">
+            <NavLink as={Link} to="/actualizacion">
             <img src={acomp} alt="" className="imgDocent " />
-            </a>
+            </NavLink>
         </div>
         <div className="shadow-sm my-2">
-            <a href="https://iset-tuc.infd.edu.ar/sitio/actualizacion-academica-2/" target="_blanck">
+            <NavLink as={Link} to="/gestion">
             <img src={gestion} alt="" className="imgDocent " />
-            </a>
+            </NavLink>
         </div>
         <div className="shadow-sm my-2">
-        <a href="https://iset-tuc.infd.edu.ar/sitio/actualizacion-academica/" target="_blanck">
+        <NavLink as={Link} to="/nuevaspracticas">
             <img src={nuevas} alt="" className="imgDocent " />
-            </a>
+            </NavLink>
         </div>
         </Container>
           

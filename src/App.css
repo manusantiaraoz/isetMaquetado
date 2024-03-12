@@ -83,7 +83,9 @@ background-color: #f6f6f6;
   width: 33vh;
   margin-top: 4px;
 }
-
+.sacarPuntos{
+list-style: none;
+}
 
 @media (min-width: 992px ) {
 
