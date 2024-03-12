@@ -1,4 +1,4 @@
-import { Container, Button } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 import acomp from "../../../public/acompTrayectorias.png"
 import gestion from "../../../public/gestionDir.png"
