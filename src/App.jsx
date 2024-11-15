@@ -10,18 +10,21 @@ import Equipo from "./components/pages/Equipo";
 import Actualizacion from "./components/pages/Actualizacion";
 import Gestion from "./components/pages/Gestion";
 import NuevasPracticas from "./components/pages/NuevasPracticas";
+import PreIns from "./components/pages/PreIns";
+
 
 function App() {
   return (
     <BrowserRouter>
       <Menu></Menu>
-
+     
       <Routes>
         <Route exact path="/" element={<Inicio></Inicio>}></Route>
         <Route exact path="/nosotros" element={<Equipo></Equipo>}></Route>
         <Route exact path="/actualizacion" element={<Actualizacion></Actualizacion>}></Route>
         <Route exact path="/gestion" element={<Gestion></Gestion>}></Route>
         <Route exact path="/nuevaspracticas" element={<NuevasPracticas></NuevasPracticas>}></Route>
+        <Route exact path="/inscripciones" element={<PreIns></PreIns>}></Route>
         <Route path="*" element={<Error404></Error404>}></Route>
       </Routes>
       <Footer></Footer>

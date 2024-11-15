@@ -6,7 +6,7 @@ const Menu = () => {
   return (
     <Navbar expand="lg" className="navColor shadow-sm " >
       <Container>
-        <Navbar.Brand href="#home" as={Link} className="nav-link">
+        <Navbar.Brand to="/" as={Link} className="nav-link">
           <img
             src="https://iset-tuc.infd.edu.ar/sitio/wp-content/uploads/2019/12/pagina2.png"
             alt="Logo de RollingCoffee"
