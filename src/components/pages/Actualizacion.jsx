@@ -4,7 +4,7 @@ const Actualizacion = () => {
   return (
     <>
       <Container>
-        <h3 className="text-center my-3">
+        <h3 className="text-center mt-5">
           Acompañamiento a las Trayectorias Escolares en la ETP
         </h3>
 

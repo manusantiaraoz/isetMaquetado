@@ -3,7 +3,7 @@ import React from "react";
 const PreIns = () => {
   return (
     <>
-      <article className="mainSection">
+      <article className="mainSection mt-5">
         <h2 className="text-center mt-3">PRE-INSCRIPCIONES 2025</h2>
         <section className="text-center">
           <img

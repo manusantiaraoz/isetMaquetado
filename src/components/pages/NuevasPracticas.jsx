@@ -4,7 +4,7 @@ const NuevasPracticas = () => {
     return (
         <>
                <Container>
-        <h3 className="text-center my-3">
+        <h3 className="text-center  mt-5">
         Gestión  Directiva y Prácticas Educativas
         </h3>
 
