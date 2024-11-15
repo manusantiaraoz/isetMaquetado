@@ -8,7 +8,7 @@ const PreIns = () => {
         <section className="text-center">
           <img
             src="https://iset-tuc.infd.edu.ar/sitio/wp-content/uploads/2024/08/carreras2.png"
-            alt="software-robotica-gestionA"
+            alt="software-robotica-gestionA" className="imgDocent"
           />
         </section>
         <section className="container">
