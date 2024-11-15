@@ -53,8 +53,15 @@
   width: 100%;
  height: 400px;
 }
+.navColorr{
+  background-color: #cfebec;
+  position:fixed;
+  width: 100%;
+  z-index: 1111;
+}
 .navColor{
   background-color: #cfebec;
+  
 }
 .bgMainColor{
 

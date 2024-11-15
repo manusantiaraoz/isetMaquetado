@@ -4,7 +4,7 @@ import { Link, NavLink} from "react-router-dom";
 
 const Menu = () => {
   return (
-    <Navbar expand="lg" className="navColor shadow-sm " >
+    <Navbar expand="lg" className="navColorr shadow-sm " >
       <Container>
         <Navbar.Brand to="/" as={Link} className="nav-link">
           <img

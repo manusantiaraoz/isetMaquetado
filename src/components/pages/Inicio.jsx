@@ -15,7 +15,7 @@ const Inicio = () => {
   };
 
   return (
-    <section className="mainSection bgMainColor">
+    <section className="mainSection bgMainColor mt-5">
       <article className=" d-flex justify-content-around bg-ligth px-3 my-5 resInicio">
       <section className="align-self-center">
         <h1 className=" text-dark fontMona text-center">BIENVENIDOS AL ISET-TUCUMÁN</h1>
